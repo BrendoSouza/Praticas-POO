@@ -50,7 +50,7 @@ public class ContaCorrente {
 		return this.saldo;
 	}
 	
-	public boolean transferencia(String conta, BigDecimal valor) {
+	public boolean transferencia(ContaCorrente, BigDecimal valor) {
 		boolean sucesso = false;
 		
 		if(this.saldo.compareTo(valor) >= 0) {
